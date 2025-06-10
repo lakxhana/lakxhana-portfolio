@@ -208,7 +208,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-medium text-white">Email</p>
-                      <p className="text-gray-300">lakxhanaselavarajah@gmail.com</p>
+                      <p className="text-gray-300">lakxhanaselvarajah@gmail.com</p>
                     </div>
                   </div>
 
@@ -287,4 +287,3 @@ export default function Home() {
     </div>
   )
 }
-
