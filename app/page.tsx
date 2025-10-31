@@ -124,7 +124,7 @@ export default function Home() {
 
                 <p className="text-lg text-gray-200">
                   I am a Java focused developer for backend (Spring Boot) and for frontend - React.js, with experience
-                  working within Python for scripting and automation. I personally enjoy working on the functionality of
+                  working within Python for machine learning (fuzzy logic). I personally enjoy working on the functionality of
                   my work and how that impacts the user experience. I was fortunate enough to work as a Backend Software
                   Engineering Intern, where I was able to gain real-world experience of the field working within the
                   aforementioned Java framework and using automation testing, with the goal of performance optimisation
