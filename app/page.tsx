@@ -192,6 +192,25 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
               <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
+                <img
+                  src="/astraguard-preview.png"
+                  alt="AstraGuard orbital traffic control interface"
+                  className="w-full h-40 object-cover rounded-md border border-purple-500/20"
+                />
+                <h3 className="text-xl font-bold text-white">AstraGuard</h3>
+                <p className="text-sm text-gray-300">
+                  A 3D orbital traffic control system built with React, Three.js, SGP4 physics, and Gemini-powered
+                  strategic recommendations.
+                </p>
+                <Button
+                  className="w-full bg-purple-800 hover:bg-white hover:text-purple-800"
+                  onClick={() => window.open("https://github.com/lakxhana/AstraGuard")}
+                >
+                  View Repository
+                </Button>
+              </div>
+
+              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
                 <div className="text-xs font-semibold text-purple-300 uppercase tracking-wider">Most Recent</div>
                 <h3 className="text-xl font-bold text-white">JelasVerse</h3>
                 <p className="text-sm text-gray-300">
