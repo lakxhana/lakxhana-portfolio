@@ -65,7 +65,7 @@ export default function Home() {
                 <Button
                   className="bg-purple-800 hover:bg-white hover:text-purple-800 transition-all duration-300 text-xs sm:text-sm px-3 sm:px-4"
                   onClick={() =>
-                    window.open("https://drive.google.com/file/d/1GZzQD2PzJ_IM3zoXnI3IoKyp5slODTv6/view?usp=sharing")
+                    window.open("https://drive.google.com/file/d/1VB3QYRUdpgfUjJ8jiKcBVpuvCOPnqGoQ/view?usp=sharing")
                   }
                 >
                   <Download className="mr-2 h-4 w-4" />
@@ -193,21 +193,28 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
               <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
                 <div className="text-xs font-semibold text-purple-300 uppercase tracking-wider">Most Recent</div>
-                <h3 className="text-xl font-bold text-white">AstraGuard</h3>
-                <img
-                  src="/astraguard-preview.png"
-                  alt="AstraGuard project preview"
-                  className="w-full h-40 object-cover rounded-md border border-purple-500/30"
-                />
+                <h3 className="text-xl font-bold text-white">JelasVerse</h3>
                 <p className="text-sm text-gray-300">
-                  Highlight project: AI-assisted 3D orbital traffic control concept for satellite collision prediction and prevention.
+                  A gamified, accessibility-focused learning platform for Malaysian secondary students with dyslexia.
+                  Students explore a 3D space adventure, complete learning challenges, and progress through game-like
+                  activities with adjustable text size, focus settings, reduced motion, and screen reading support.
+                  Teachers can monitor learning progress and performance through a dedicated dashboard.
                 </p>
-                <Button
-                  className="w-full bg-purple-800 hover:bg-white hover:text-purple-800"
-                  onClick={() => window.open("https://github.com/lakxhana/AstraGuard")}
-                >
-                  View Repository
-                </Button>
+                <div className="flex gap-2">
+                  <Button
+                    className="flex-1 bg-purple-800 hover:bg-white hover:text-purple-800"
+                    onClick={() => window.open("https://github.com/lakxhana/JelasVerse")}
+                  >
+                    Repo
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    className="flex-1 text-white border border-purple-500/30 hover:bg-white hover:text-purple-800"
+                    onClick={() => window.open("https://jelas-verse.vercel.app")}
+                  >
+                    Live Demo
+                  </Button>
+                </div>
               </div>
 
               <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
