@@ -252,6 +252,19 @@ export default function Home() {
               </div>
 
               <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
+                <h3 className="text-xl font-bold text-white">NexusCore</h3>
+                <p className="text-sm text-gray-300">
+                  A company management platform that helps startups and organisations coordinate operations and collaboration.
+                </p>
+                <Button
+                  className="w-full bg-purple-800 hover:bg-white hover:text-purple-800"
+                  onClick={() => window.open("https://github.com/lakxhana/NexusCore")}
+                >
+                  View Repository
+                </Button>
+              </div>
+
+              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
                 <h3 className="text-xl font-bold text-white">card-stack-trainer</h3>
                 <p className="text-sm text-gray-300">
                   Interactive trainer for memorizing popular card stacks with focused practice flows.
