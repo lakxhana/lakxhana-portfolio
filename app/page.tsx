@@ -132,6 +132,23 @@ export default function Home() {
                   Gemini Hackathon (GDG KL x Google DeepMind), where I helped develop AstraGuard, a 3D orbital traffic
                   control system using React 19, Three.js, SGP4 physics, and Gemini-powered strategic recommendations.
                 </p>
+
+                <p className="text-lg text-gray-200">
+                  Beyond software development, I have broadened my perspective through international programmes and
+                  cultural exchanges. I was sponsored by the Malaysian government and selected as a delegate to
+                  represent the country in the ASEAN Programme and NCP India Programme, strengthening my communication,
+                  adaptability, and ability to collaborate with people from diverse backgrounds. I also shared my ASEAN
+                  road safety experience in an article on{" "}
+                  <a
+                    href="https://www.linkedin.com/pulse/youth-driving-future-road-safety-asean-lakxhana-selva-rajah-byjyc"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-purple-300 underline decoration-purple-400/60 underline-offset-4 hover:text-white"
+                  >
+                    LinkedIn
+                  </a>
+                  .
+                </p>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
