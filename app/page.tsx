@@ -128,9 +128,10 @@ export default function Home() {
                 </p>
 
                 <p className="text-lg text-gray-200">
-                  I have also built and presented projects in multiple hackathons, including a Top 5 finish in Build with AI:
-                  Gemini Hackathon (GDG KL x Google DeepMind), where I helped develop AstraGuard, a 3D orbital traffic
-                  control system using React 19, Three.js, SGP4 physics, and Gemini-powered strategic recommendations.
+                  I have also built and presented projects in multiple hackathons, including being shortlisted among the five
+                  championship teams in the Build with AI: Gemini Hackathon (GDG KL x Google DeepMind), where I helped
+                  develop AstraGuard, a 3D orbital traffic control system using React 19, Three.js, SGP4 physics, and
+                  Gemini-powered strategic recommendations.
                 </p>
 
                 <p className="text-lg text-gray-200">
