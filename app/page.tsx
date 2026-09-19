@@ -191,11 +191,12 @@ export default function Home() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
+              <div className="bg-purple-950/50 p-6 rounded-lg backdrop-blur-sm border border-purple-400/60 ring-1 ring-purple-500/30 space-y-3 md:col-span-2 xl:col-span-1">
+                <div className="text-xs font-semibold text-purple-300 uppercase tracking-wider">Featured Project</div>
                 <img
                   src="/astraguard-preview.png"
                   alt="AstraGuard orbital traffic control interface"
-                  className="w-full h-40 object-cover rounded-md border border-purple-500/20"
+                  className="w-full h-40 object-cover rounded-md border border-purple-400/40"
                 />
                 <h3 className="text-xl font-bold text-white">AstraGuard</h3>
                 <p className="text-sm text-gray-300">
@@ -234,6 +235,20 @@ export default function Home() {
                     Live Demo
                   </Button>
                 </div>
+              </div>
+
+              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
+                <h3 className="text-xl font-bold text-white">OrbitOcular</h3>
+                <p className="text-sm text-gray-300">
+                  An offline-first, edge-AI ocular screening platform with cloud and on-device inference, explainable
+                  Grad-CAM heatmaps, iris alignment, and an interactive 3D eye model for accessible diagnostic context.
+                </p>
+                <Button
+                  className="w-full bg-purple-800 hover:bg-white hover:text-purple-800"
+                  onClick={() => window.open("https://github.com/lakxhana/OrbitOcular")}
+                >
+                  View Repository
+                </Button>
               </div>
 
               <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
