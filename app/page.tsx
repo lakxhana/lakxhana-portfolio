@@ -65,7 +65,7 @@ export default function Home() {
                 <Button
                   className="bg-purple-800 hover:bg-white hover:text-purple-800 transition-all duration-300 text-xs sm:text-sm px-3 sm:px-4"
                   onClick={() =>
-                    window.open("https://drive.google.com/file/d/1GZzQD2PzJ_IM3zoXnI3IoKyp5slODTv6/view?usp=sharing")
+                    window.open("https://drive.google.com/file/d/1VB3QYRUdpgfUjJ8jiKcBVpuvCOPnqGoQ/view?usp=sharing")
                   }
                 >
                   <Download className="mr-2 h-4 w-4" />
@@ -191,20 +191,74 @@ export default function Home() {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
-                <div className="text-xs font-semibold text-purple-300 uppercase tracking-wider">Most Recent</div>
-                <h3 className="text-xl font-bold text-white">AstraGuard</h3>
+              <div className="bg-purple-950/50 p-6 rounded-lg backdrop-blur-sm border border-purple-400/60 ring-1 ring-purple-500/30 space-y-3 md:col-span-2 xl:col-span-1">
+                <div className="text-xs font-semibold text-purple-300 uppercase tracking-wider">Featured Project</div>
                 <img
                   src="/astraguard-preview.png"
-                  alt="AstraGuard project preview"
-                  className="w-full h-40 object-cover rounded-md border border-purple-500/30"
+                  alt="AstraGuard orbital traffic control interface"
+                  className="w-full h-40 object-cover rounded-md border border-purple-400/40"
                 />
+                <h3 className="text-xl font-bold text-white">AstraGuard</h3>
                 <p className="text-sm text-gray-300">
-                  Highlight project: AI-assisted 3D orbital traffic control concept for satellite collision prediction and prevention.
+                  A 3D orbital traffic control system built with React, Three.js, SGP4 physics, and Gemini-powered
+                  strategic recommendations.
                 </p>
                 <Button
                   className="w-full bg-purple-800 hover:bg-white hover:text-purple-800"
                   onClick={() => window.open("https://github.com/lakxhana/AstraGuard")}
+                >
+                  View Repository
+                </Button>
+              </div>
+
+              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
+                <div className="text-xs font-semibold text-purple-300 uppercase tracking-wider">Most Recent</div>
+                <h3 className="text-xl font-bold text-white">JelasVerse</h3>
+                <p className="text-sm text-gray-300">
+                  A gamified, accessibility-focused learning platform for Malaysian secondary students with dyslexia.
+                  Students explore a 3D space adventure, complete learning challenges, and progress through game-like
+                  activities with adjustable text size, focus settings, reduced motion, and screen reading support.
+                  Teachers can monitor learning progress and performance through a dedicated dashboard.
+                </p>
+                <div className="flex gap-2">
+                  <Button
+                    className="flex-1 bg-purple-800 hover:bg-white hover:text-purple-800"
+                    onClick={() => window.open("https://github.com/lakxhana/JelasVerse")}
+                  >
+                    Repo
+                  </Button>
+                  <Button
+                    variant="ghost"
+                    className="flex-1 text-white border border-purple-500/30 hover:bg-white hover:text-purple-800"
+                    onClick={() => window.open("https://jelas-verse.vercel.app")}
+                  >
+                    Live Demo
+                  </Button>
+                </div>
+              </div>
+
+              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
+                <h3 className="text-xl font-bold text-white">OrbitOcular</h3>
+                <p className="text-sm text-gray-300">
+                  An offline-first, edge-AI ocular screening platform with cloud and on-device inference, explainable
+                  Grad-CAM heatmaps, iris alignment, and an interactive 3D eye model for accessible diagnostic context.
+                </p>
+                <Button
+                  className="w-full bg-purple-800 hover:bg-white hover:text-purple-800"
+                  onClick={() => window.open("https://github.com/lakxhana/OrbitOcular")}
+                >
+                  View Repository
+                </Button>
+              </div>
+
+              <div className="bg-purple-900/30 p-6 rounded-lg backdrop-blur-sm border border-purple-500/20 space-y-3">
+                <h3 className="text-xl font-bold text-white">NexusCore</h3>
+                <p className="text-sm text-gray-300">
+                  A company management platform that helps startups and organisations coordinate operations and collaboration.
+                </p>
+                <Button
+                  className="w-full bg-purple-800 hover:bg-white hover:text-purple-800"
+                  onClick={() => window.open("https://github.com/lakxhana/NexusCore")}
                 >
                   View Repository
                 </Button>
